@@ -5,113 +5,113 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coffee</title>
     <link rel="icon" href= "assets/Иконки/IC_coffee.png" type="image/x-icon">
+    <link rel = "stylesheet" href = "styles.css">
 </head>
 
 <body>
-<header>
-<h1>
-    Главная
-</h1>
-<div class = "bin">
-    <img src = "assets/Иконки/cart.png" alt>
-</div>
-<nav>
-<ul>
-    <li>
-        <a href = "#coffee_section">Кофе начало</a>
-    </li>
-    <li>
-        <a href = "#color">Цвет</a>
-    </li>
-    <li>
-        <a href = "#filter">Кофе</a>
-    </li>
-    <li>
-        <a href = "#gifts">Набор подарков</a>
-    </li>
-    <li>
-        <a href = "#filters">Кофе с фильтром</a>
-    </li>
-    <li>
-        <a href = "">Контакты</a>
-    </li>
-</ul>
-</nav>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+</style>
+<header class="header">
+    <div class = "header__pictures">
+        <img src = "assets/LOGO.png" alt width= "100px" height="25px">
+        <img src = "assets/Фото/Баннер.png" alt>
+        <img src = "assets/Иконки/cart.png" alt width= "20px" height="25px">
+    </div>
+    <nav class = "header__navigation">
+        <h1 class = "header__first">
+        Главная
+        </h1>
+    <ul class = "header__navigation_ul">
+        <li>
+            <a class = "header__navigation_coffee_section" href = "#coffee_section">Кофе начало</a>
+        </li>
+        <li>
+            <a class = "header__navigation_color" href = "#color">Цвет</a>
+        </li>
+        <li>
+            <a class = "header__navigation_filter" href = "#filter">Кофе</a>
+        </li>
+        <li>
+            <a class = "header__navigation_gifts" href = "#gifts">Набор подарков</a>
+        </li>
+        <li>
+            <a class = "header__navigation_filters" href = "#filters">Кофе с фильтром</a>
+        </li>
+        <li>
+            <a class = "header__navigation_contacts" href = "">Контакты</a>
+        </li>
+    </ul>
+    </nav>
+    <h2>
+        Ваш персонализированный кофе
+    </h2>
 </header>
 
 <main>
- <section class = "first" id = "coffee_section">
-<div class = "logotip">
-    <img src = "assets/LOGO.png" alt>
-</div>
-<h2>
-    Ваш персонализированный кофе
-</h2>
-<div class = "bgd">
-    <img src = "assets/Фото/Баннер.png" alt>
-</div>
- </section>
- <section class = "second" id = "color">
+<section class = "section__first" id = "coffee_section">
     <h3>
         Кофе укрепит вашу базу
     </h3>
-    <article class = "source">
+</section>
+<section class = "section__second" id = "color">
+    <article class = "section__first__article">
         <div class = "cup">
-            <img src = "assets/Иконки/cup.png" alt>
+            <img class = "section__first__icon" src = "assets/Иконки/cup.png" alt>
         </div>
-        <h4>
+        <h4 class = "section__first__header">
             Источник
         </h4>
         <p>
             Качество арабики в&nbsp;зернах,<br />
-            Робусты соответствует международным стандартам.
+            Робусты соответствует<br /> международным стандартам.
         </p>
     </article>
-    <article class = "quality">
+    <article class = "section__first__article">
         <div class = "cof">
-            <img src = "assets/Иконки/coffee.png" alt>
+            <img class = "section__first__icon" src = "assets/Иконки/coffee.png" alt>
         </div>
-        <h4>
+        <h4 class = "section__first__header">
             Качество
         </h4>
         <p>
-            Приготовление кофе в&nbsp;зернах&nbsp;&mdash; это процесс<br />
-            концентрирования кофе ручной работы.
+            Приготовление кофе в&nbsp;зернах &nbsp;&mdash;  <br />  это процесс
+            концентрирования<br /> кофе ручной работы.
         </p>
     </article>
-    <article class = "grains">
+    <article class = "section__first__article">
         <div class = "bin">
-            <img src = "assets/Иконки/bin.png" alt>
+            <img class = "section__first__icon" src = "assets/Иконки/bin.png" alt>
         </div>
-        <h4>
+        <h4 class = "section__first__header">
             Зёрна
         </h4>
         <p>
-            Чашка кофе, приготовленного на&nbsp;70%<br />
-            из&nbsp;высококачественных зеленых зерен.
+            Чашка кофе, приготовленного<br /> на&nbsp;70%
+            из&nbsp;высококачественных <br />зеленых зерен.
         </p>
     </article>
-    <article class = "dosing">
+    <article class = "section__first__article">
         <div class = "machine">
-            <img src = "assets/Иконки/machine.png" alt>
+            <img class = "section__first__icon" src = "assets/Иконки/machine.png" alt>
         </div>
-        <h4>
+        <h4 class = "section__first__header">
             Дозирование
         </h4>
         <p>
-          Фасоль подвергается линьке<br />
-        в&nbsp;процессе тщательной обжарки. 
+          Фасоль подвергается линьке
+        в<br />&nbsp;процессе тщательной обжарки. 
         </p>
     </article>
  </section>
- <section class = "third" id = "filter">
-    <h4>
+ <h4 class = "section__third__h4h3">
         Выберите свой любимый
     </h4>
-    <h3>
+    <h3 class = "section__third__h4h3">
         СТАНДАРТНАЯ ЕДИНИЦА ИЗМЕРЕНИЯ GU
     </h3>
-    <article>
+ <section class = "section__third" id = "filter">
+    <article class = "section__third__article">
         <div class = "yellow">
             <img src = "assets/Фото/yellow.png" alt>
         </div>
@@ -127,7 +127,7 @@
         <button>купить сейчас</button>
         <button>подробности</button>
     </article>
-    <article>
+    <article class = "section__third__article">
         <div class = "orange">
             <img src = "assets/Фото/orange.png" alt>
         </div>
@@ -143,7 +143,7 @@
         <button>купить сейчас</button>
         <button>подробности</button>
     </article>
-    <article>
+    <article class = "section__third__article">
         <div class = "blue">
             <img src = "assets/Фото/blue.png" alt>
         </div>
@@ -159,7 +159,7 @@
         <button>купить сейчас</button>
         <button>подробности</button>
     </article>
-    <article>
+    <article class = "section__third__article">
         <div class = "brown">
             <img src = "assets/Фото/brown.png" alt>
         </div>
@@ -176,11 +176,11 @@
         <button>подробности</button>
     </article>
  </section>
-<section class = "fourth" id = "gifts">
-    <h4>
+<section class = "section__fourth" id = "gifts">
+    <h4 class = "section__fourth__h4h3">
         Лучший подарок лучшему другу
     </h4>
-    <h3>
+    <h3 class = "section__fourth__h4h3">
         ПОДАРОЧНЫЙ НАБОР
     </h3>
     <div class = "gift">
@@ -216,11 +216,11 @@
     <button>купить сейчас</button>
     <button>подробности</button>
 </section>
-<section class = "fifth" id = "filters">
-    <h4>
+<section class = "section__fifth" id = "filters">
+    <h4 class = "section__fifth__h4h3">
         Ваш индивидуальный кофе
     </h4>
-    <h3>
+    <h3 class = "section__fifth__h4h3">
         КОФЕ С КОМБИНИРОВАННЫМ ФИЛЬТРОМ
     </h3>
 <article>
@@ -285,7 +285,7 @@
 </section>
 </main>
 
-<footer>
+<footer class = "footer">
 <p>&copy; Revo Coffee Вьетнам&nbsp;&mdash; 2018</p>
 </footer>
 </body>

@@ -1,0 +1,140 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.header{
+    position: relative;
+    background-color: #b0ddf1;
+}
+.header__pictures{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.header__navigation{
+    position: absolute;
+    left: 75%;
+    top: 35%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    font-size: 120%;
+    outline: 1px solid #462d81;
+    outline-offset: 1px;
+    border-radius: 2.5%;
+}
+a:active {
+    transform: scale(0.9);
+}
+a:disabled {
+ background-color: #ccc;
+ cursor: not-allowed;
+ transform: none;
+}
+
+
+
+.section__first{
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 3%;
+}
+
+.section__first__icon{
+    width: 80px;
+    height: 80px;
+}
+
+.section__second{
+    padding-left: 15%;
+    padding-right: 15%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: 50px;
+}
+
+.section__third{
+    padding-left: 20%;
+    padding-right: 20%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: 50px;
+    padding: 1%;
+}
+
+.section__third__h4h3{
+    text-align: center;
+    margin: 1%;
+}
+
+.section__fourth__h4h3{
+    text-align: center;
+    margin: 1%;
+}
+
+.section__fourth{
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: center;
+    margin: 50px;
+    padding: 1%;
+}
+
+.section__fifth__h4h3{
+    text-align: center;
+    margin: 1%;
+}
+
+.section__fifth{
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: center;
+    margin: 50px;
+    padding: 1%;
+}
+
+button{
+    background-color: #3e95bd;
+    color: white;
+    padding: 4px 7px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:active {
+ transform: scale(0.98);
+}
+
+button:disabled {
+ background-color: #ccc;
+ cursor: not-allowed;
+ transform: none;
+}
+
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    height: 35px;
+}
