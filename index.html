@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coffee</title>
-    <link rel="icon" href= "assets/Иконки/IC_coffee.png" type="image/x-icon">
-    <link rel = "stylesheet" href = "styles.css">
+    <link rel="icon" href="assets/Иконки/IC_coffee.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
@@ -13,281 +13,224 @@
     @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
 </style>
 <header class="header">
-    <div class = "header__pictures">
-        <img src = "assets/LOGO.png" alt width= "100px" height="25px">
-        <img src = "assets/Фото/Баннер.png" alt>
-        <img src = "assets/Иконки/cart.png" alt width= "20px" height="25px">
+    <div class="header__left">
+        <img src="assets/LOGO.png" alt="Logo" width="100" height="25">
+        <div class="title__block">
+            <h2>Ваш<br><span>персонализированный</span><br> кофе</h2>
+        </div>
     </div>
-    <nav class = "header__navigation">
-        <h1 class = "header__first">
-        Главная
-        </h1>
-    <ul class = "header__navigation_ul">
-        <li>
-            <a class = "header__navigation_coffee_section" href = "#coffee_section">Кофе начало</a>
-        </li>
-        <li>
-            <a class = "header__navigation_color" href = "#color">Цвет</a>
-        </li>
-        <li>
-            <a class = "header__navigation_filter" href = "#filter">Кофе</a>
-        </li>
-        <li>
-            <a class = "header__navigation_gifts" href = "#gifts">Набор подарков</a>
-        </li>
-        <li>
-            <a class = "header__navigation_filters" href = "#filters">Кофе с фильтром</a>
-        </li>
-        <li>
-            <a class = "header__navigation_contacts" href = "">Контакты</a>
-        </li>
-    </ul>
-    </nav>
-    <h2>
-        Ваш персонализированный кофе
-    </h2>
+
+    <div class="header__picture">
+        <img src="assets/Фото/Баннер.png" alt="Banner">
+    </div>
+
+    <div class="header__right">
+        <img src="assets/Иконки/cart.png" alt="Cart" width="20" height="25" class="header__cart">
+
+        <nav class="header__navigation">
+            <h1 class="header__first">Главная</h1>
+            <ul class="header__navigation_ul">
+                <li>
+                    <a class="header__navigation_coffee_section" href="#coffee_section">Кофе начало</a>
+                </li>
+                <li>
+                    <a class="header__navigation_color" href="#color">Цвет</a>
+                </li>
+                <li>
+                    <a class="header__navigation_filter" href="#filter">Кофе</a>
+                </li>
+                <li>
+                    <a class="header__navigation_gifts" href="#gifts">Набор подарков</a>
+                </li>
+                <li>
+                    <a class="header__navigation_filters" href="#filters">Кофе с фильтром</a>
+                </li>
+                <li>
+                    <a class="header__navigation_contacts" href="#contacts">Контакты</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
 </header>
 
 <main>
-<section class = "section__first" id = "coffee_section">
-    <h3>
-        Кофе укрепит вашу базу
-    </h3>
-</section>
-<section class = "section__second" id = "color">
-    <article class = "section__first__article">
-        <div class = "cup">
-            <img class = "section__first__icon" src = "assets/Иконки/cup.png" alt>
+    <section class="section__first" id="coffee_section">
+        <h3>Кофе укрепит вашу базу</h3>
+    </section>
+
+    <section class="section__second" id="color">
+        <article class="section__first__article">
+            <div class="cup">
+                <img class="section__first__icon" src="assets/Иконки/cup.png" alt="Cup">
+            </div>
+            <h4 class="section__first__header">Источник</h4>
+            <p>
+                Качество арабики в&nbsp;зернах,<br />
+                Робусты соответствует<br /> международным стандартам.
+            </p>
+        </article>
+
+        <article class="section__first__article">
+            <div class="cof">
+                <img class="section__first__icon" src="assets/Иконки/coffee.png" alt="Coffee">
+            </div>
+            <h4 class="section__first__header">Качество</h4>
+            <p>
+                Приготовление кофе в&nbsp;зернах&nbsp;&mdash;<br /> это процесс
+                концентрирования<br /> кофе ручной работы.
+            </p>
+        </article>
+
+        <article class="section__first__article">
+            <div class="bin">
+                <img class="section__first__icon" src="assets/Иконки/bin.png" alt="Bin">
+            </div>
+            <h4 class="section__first__header">Зёрна</h4>
+            <p>
+                Чашка кофе, приготовленного<br /> на&nbsp;70%
+                из&nbsp;высококачественных<br />зеленых зерен.
+            </p>
+        </article>
+
+        <article class="section__first__article">
+            <div class="machine">
+                <img class="section__first__icon" src="assets/Иконки/machine.png" alt="Machine">
+            </div>
+            <h4 class="section__first__header">Дозирование</h4>
+            <p>
+                Фасоль подвергается линьке<br />
+                в&nbsp;процессе тщательной обжарки.
+            </p>
+        </article>
+    </section>
+
+    <h4 class="section__third__h4h3">Выберите свой любимый</h4>
+    <h3 class="section__third__h4h3">СТАНДАРТНАЯ ЕДИНИЦА ИЗМЕРЕНИЯ GU</h3>
+
+    <section class="section__third" id="filter">
+        <article class="section__third__article">
+            <div class="yellow">
+                <img src="assets/Фото/yellow.png" alt="Yellow Coffee">
+            </div>
+            <p>99.000</p>
+            <h4>Доброе утро, РЕВО</h4>
+            <p>горьковатый, сладкий, цветочный аромат</p>
+            <button>купить сейчас</button>
+            <button>подробности</button>
+        </article>
+
+        <article class="section__third__article">
+            <div class="orange">
+                <img src="assets/Фото/orange.png" alt="Orange Coffee">
+            </div>
+            <p>139.000</p>
+            <h4>Происхождение, РЕВО</h4>
+            <p>сладкая, менее горькая, кислая клубника</p>
+            <button>купить сейчас</button>
+            <button>подробности</button>
+        </article>
+
+        <article class="section__third__article">
+            <div class="blue">
+                <img src="assets/Фото/blue.png" alt="Blue Coffee">
+            </div>
+            <p>85.000</p>
+            <h4>РЕВО Каждый день</h4>
+            <p>сбалансируйте горький вкус шоколада</p>
+            <button>купить сейчас</button>
+            <button>подробности</button>
+        </article>
+
+        <article class="section__third__article">
+            <div class="brown">
+                <img src="assets/Фото/brown.png" alt="Brown Coffee">
+            </div>
+            <p>75.000</p>
+            <h4>РЕВО Смелый</h4>
+            <p>смелый, горький, традиционный</p>
+            <button>купить сейчас</button>
+            <button>подробности</button>
+        </article>
+    </section>
+
+    <h4 class="section__fourth__h4h3">Лучший подарок лучшему другу</h4>
+    <h3 class="section__fourth__h4h3">ПОДАРОЧНЫЙ НАБОР</h3>
+
+    <section class="section__fourth" id="gifts">
+        <div class="gift">
+            <img src="assets/Фото/gift.png" alt="Gift Set">
         </div>
-        <h4 class = "section__first__header">
-            Источник
-        </h4>
+        <p>285.000</p>
+        <h4>Подарочный набор "кофе фин, Вьетнам"</h4>
         <p>
-            Качество арабики в&nbsp;зернах,<br />
-            Робусты соответствует<br /> международным стандартам.
+            Отличный подарок для ценителя кофе. Кофейные зерна Revo тщательно отбираются, обжариваются в&nbsp;соответствии с&nbsp;технологией и&nbsp;секретами, которым можно научиться у&nbsp;знаменитого мастера, с&nbsp;любовью и&nbsp;увлечением человека, готовящего кофе&hellip; создайте чашку кофе only pure исключительно для вас.
         </p>
-    </article>
-    <article class = "section__first__article">
-        <div class = "cof">
-            <img class = "section__first__icon" src = "assets/Иконки/coffee.png" alt>
+        <div class="nuts">
+            <img src="assets/Иконки/IC_coffee.png" alt="Coffee Icon">
         </div>
-        <h4 class = "section__first__header">
-            Качество
-        </h4>
-        <p>
-            Приготовление кофе в&nbsp;зернах &nbsp;&mdash;  <br />  это процесс
-            концентрирования<br /> кофе ручной работы.
-        </p>
-    </article>
-    <article class = "section__first__article">
-        <div class = "bin">
-            <img class = "section__first__icon" src = "assets/Иконки/bin.png" alt>
+        <h4>Орехи</h4>
+        <p>Превосходная смесь Робусты</p>
+        <div class="mountain">
+            <img src="assets/Иконки/IC_Mountain.png" alt="Mountain Icon">
         </div>
-        <h4 class = "section__first__header">
-            Зёрна
-        </h4>
-        <p>
-            Чашка кофе, приготовленного<br /> на&nbsp;70%
-            из&nbsp;высококачественных <br />зеленых зерен.
-        </p>
-    </article>
-    <article class = "section__first__article">
-        <div class = "machine">
-            <img class = "section__first__icon" src = "assets/Иконки/machine.png" alt>
-        </div>
-        <h4 class = "section__first__header">
-            Дозирование
-        </h4>
-        <p>
-          Фасоль подвергается линьке
-        в<br />&nbsp;процессе тщательной обжарки. 
-        </p>
-    </article>
- </section>
- <h4 class = "section__third__h4h3">
-        Выберите свой любимый
-    </h4>
-    <h3 class = "section__third__h4h3">
-        СТАНДАРТНАЯ ЕДИНИЦА ИЗМЕРЕНИЯ GU
-    </h3>
- <section class = "section__third" id = "filter">
-    <article class = "section__third__article">
-        <div class = "yellow">
-            <img src = "assets/Фото/yellow.png" alt>
-        </div>
-        <p>
-            99.000
-        </p>
-        <h4>
-            Доброе утро, РЕВО
-        </h4>
-        <p>
-            горьковатый, сладкий, цветочный аромат
-        </p>
+        <h4>Высота над уровнем моря</h4>
+        <p>700 - 800м</p>
         <button>купить сейчас</button>
         <button>подробности</button>
-    </article>
-    <article class = "section__third__article">
-        <div class = "orange">
-            <img src = "assets/Фото/orange.png" alt>
-        </div>
-        <p>
-            139.000
-        </p>
-        <h4>
-            Происхождение, РЕВО
-        </h4>
-        <p>
-           сладкая, менее горькая, кислая клубника 
-        </p>
-        <button>купить сейчас</button>
-        <button>подробности</button>
-    </article>
-    <article class = "section__third__article">
-        <div class = "blue">
-            <img src = "assets/Фото/blue.png" alt>
-        </div>
-        <p>
-            85.000
-        </p>
-        <h4>
-            РЕВО Каждый день
-        </h4>
-        <p>
-            сбалансируйте горький вкус шоколада
-        </p>
-        <button>купить сейчас</button>
-        <button>подробности</button>
-    </article>
-    <article class = "section__third__article">
-        <div class = "brown">
-            <img src = "assets/Фото/brown.png" alt>
-        </div>
-        <p>
-            75.000
-        </p>
-        <h4>
-            РЕВО Смелый
-        </h4>
-        <p>
-            смелый, горький, традиционный
-        </p>
-        <button>купить сейчас</button>
-        <button>подробности</button>
-    </article>
- </section>
-<section class = "section__fourth" id = "gifts">
-    <h4 class = "section__fourth__h4h3">
-        Лучший подарок лучшему другу
-    </h4>
-    <h3 class = "section__fourth__h4h3">
-        ПОДАРОЧНЫЙ НАБОР
-    </h3>
-    <div class = "gift">
-        <img src = "assets/Фото/gift.png" alt>
-    </div>
-    <p>
-        285.000
-    </p>
-    <h4>
-        Подарочный набор "кофе фин, Вьетнам"
-    </h4>
-    <p>
-        Отличный подарок для ценителя кофе. Кофейные зерна Revo тщательно отбираются, обжариваются в&nbsp;соответствии с&nbsp;технологией и&nbsp;секретами, которым можно научиться у&nbsp;знаменитого мастера, с&nbsp;любовью и&nbsp;увлечением человека, готовящего кофе&hellip; создайте чашку кофе only pure исключительно для вас.
-    </p>
-    <div class = "nuts">
-        <img src = "assets/Иконки/IC_coffee.png" alt>
-    </div>
-    <h4>
-        Орехи
-    </h4>
-    <p>
-        Превосходная смесь Робусты
-    </p>
-    <div class = "mountain">
-        <img src = "assets/Иконки/IC_Mountain.png" alt>
-    </div>
-    <h4>
-        Высота над уровнем моря
-    </h4>
-    <p>
-        700 - 800м
-    </p>
-    <button>купить сейчас</button>
-    <button>подробности</button>
-</section>
-<section class = "section__fifth" id = "filters">
-    <h4 class = "section__fifth__h4h3">
-        Ваш индивидуальный кофе
-    </h4>
-    <h3 class = "section__fifth__h4h3">
-        КОФЕ С КОМБИНИРОВАННЫМ ФИЛЬТРОМ
-    </h3>
-<article>
-        <div class = "browncup">
-            <img src = "assets/Фото/browncup.png" alt>
-        </div>
-        <p>
-            147.000
-        </p>
-        <p>
-            <s>155.000</s>
-        </p>
-        <h4>
-            Комбинированный Рево Болд
-        </h4>
-        <p>
-           Содержание кофеина в&nbsp;Рево Болд достаточно сильное,<br />
-чтобы заставить вас проснуться&hellip;
-        </p>
-        <button>купить сейчас</button>
-        <button>подробности</button>
-    </article>
-    <article>
-        <div class = "bluecup">
-            <img src =  "assets/Фото/bluecup.png" alt>
-        </div>
-        <p>
-            156.000
-        </p>
-        <p>
-            <s>165.000</s>
-        </p>
-        <h4>
-            Комбинированный напиток Рево
-        </h4>
-        <p>
-            В&nbsp;Рево каждый день сочетаются горьковатый<br />
-вкус бобов робусты и&nbsp;аромат&hellip;
-        </p>
-        <button>купить сейчас</button>
-        <button>подробности</button>
-    </article>
-    <article>
-        <div class = "redcup">
-            <img src = "assets/Фото/redcup.png" alt>
-        </div>
-        <p>
-            260.000
-        </p>
-        <p>
-            <s>275.000</s>
-        </p>
-        <h4>
-            Комбинированный Рево мёд
-        </h4>
-        <p>
-            Мед&nbsp;&mdash; название Рево мёд происходит от&nbsp;метода обработки арабики
-        </p>
-        <button>купить сейчас</button>
-        <button>подробности</button>
-    </article>
-</section>
+    </section>
+
+    <h4 class="section__fifth__h4h3">Ваш индивидуальный кофе</h4>
+    <h3 class="section__fifth__h4h3">КОФЕ С КОМБИНИРОВАННЫМ ФИЛЬТРОМ</h3>
+
+    <section class="section__fifth" id="filters">
+        <article>
+            <div class="browncup">
+                <img src="assets/Фото/browncup.png" alt="Brown Cup">
+            </div>
+            <p>147.000</p>
+            <p><s>155.000</s></p>
+            <h4>Комбинированный Рево Болд</h4>
+            <p>
+                Содержание кофеина в&nbsp;Рево Болд достаточно сильное,<br />
+                чтобы заставить вас проснуться&hellip;
+            </p>
+            <button>купить сейчас</button>
+            <button>подробности</button>
+        </article>
+
+        <article>
+            <div class="bluecup">
+                <img src="assets/Фото/bluecup.png" alt="Blue Cup">
+            </div>
+            <p>156.000</p>
+            <p><s>165.000</s></p>
+            <h4>Комбинированный напиток Рево</h4>
+            <p>
+                В&nbsp;Рево каждый день сочетаются горьковатый<br />
+                вкус бобов робусты и&nbsp;аромат&hellip;
+            </p>
+            <button>купить сейчас</button>
+            <button>подробности</button>
+        </article>
+
+        <article>
+            <div class="redcup">
+                <img src="assets/Фото/redcup.png" alt="Red Cup">
+            </div>
+            <p>260.000</p>
+            <p><s>275.000</s></p>
+            <h4>Комбинированный Рево мёд</h4>
+            <p>
+                Мед&nbsp;&mdash; название Рево мёд происходит от&nbsp;метода обработки арабики
+            </p>
+            <button>купить сейчас</button>
+            <button>подробности</button>
+        </article>
+    </section>
 </main>
 
-<footer class = "footer">
-<p>&copy; Revo Coffee Вьетнам&nbsp;&mdash; 2018</p>
+<footer class="footer" id="contacts">
+    <p>&copy; Revo Coffee Вьетнам&nbsp;&mdash; 2018</p>
 </footer>
 </body>
-
 </html>
